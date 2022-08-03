@@ -1,0 +1,18 @@
+{
+    "navbar":{
+        "ingles":"English",
+        "espanol":"Spanish"
+        
+    },
+    "body":{
+        "des":"Register",
+        "tab":"Table",
+        "periodo":"Period",
+        "descripcion":"Description",
+        "categoria":"Category",
+        "monto":"Amount",
+        "acciones":"Actions",
+        "guar":"Save"
+        
+    }
+}

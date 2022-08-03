@@ -1,0 +1,17 @@
+{
+    "navbar":{
+        "ingles":"Ingles",
+        "espanol":"Español"
+        
+    },
+    "body":{
+        "des":"Registrar",
+        "tab":"Tabla",
+        "periodo":"Periodo",
+        "descripcion":"Descripcion",
+        "categoria":"Categoria",
+        "monto":"Monto",
+        "acciones":"Acciones",
+        "guar":"Guardar"
+    }
+}

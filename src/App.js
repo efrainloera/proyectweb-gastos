@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import { 
   listarService, 
   guardarService, 
-  mostrarService, 
-  //actualizarService, 
+ // mostrarService, ------MODIFICAR-----
+ // actualizarService,  ------MODIFICAR-----
   eliminarService
 } from "./services/monederoService";
 
@@ -13,7 +13,7 @@ import {
 
 function App() {
   const [t, i18n] = useTranslation("global")
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)  -----MODIFICAR-----
   
   const valorInicial = {
     id: "",
@@ -35,10 +35,10 @@ function App() {
     setDato(valorInicial);
     listarDatos(res.data);  //modificar (res.data)
   }
-  const handleShow = async (id) => {
-    const res = await mostrarService(id);
-    setDato(res.data);
-  }
+  //const handleShow = async (id) => {
+  //  const res = await mostrarService(id);  ----MODIFICAR----
+  //  setDato(res.data);
+ // }
   const handleDelete = async (id) => {
     const res = await eliminarService(id);
     listarDatos(res.data); //modificar (res.data)
